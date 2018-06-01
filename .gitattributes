@@ -1,6 +1,5 @@
 dataset/* filter=lfs diff=lfs merge=lfs -text
 dataset filter=lfs diff=lfs merge=lfs -text
-dataset/README.txt filter=lfs diff=lfs merge=lfs -text
 dataset/VSNLI_1.0_dev.tsv filter=lfs diff=lfs merge=lfs -text
 dataset/VSNLI_1.0_test.tsv filter=lfs diff=lfs merge=lfs -text
 dataset/VSNLI_1.0_test_hard.tsv filter=lfs diff=lfs merge=lfs -text
