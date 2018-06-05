@@ -36,8 +36,6 @@ def pad_3d_tensor(in_val, max_length1=None, max_length2=None, dtype=np.int32):
 class DataStream(object):
     def __init__(self, inpath, word_vocab=None, char_vocab=None, POS_vocab=None, NER_vocab=None, label_vocab=None, batch_size=60, 
                  isShuffle=False, isLoop=False, isSort=True, max_char_per_word=10, with_dep = False, max_sent_length=200, with_image=False, image_feats=None, sick_data=False):
-        print ("inpath: ", inpath)
-        print ("label_vocab: ", label_vocab.word2id)
         instances = []
         count_ins = 0
         infile = open(inpath, 'rt')

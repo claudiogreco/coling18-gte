@@ -221,9 +221,9 @@ def main(_):
                                               batch_size=FLAGS.batch_size, isShuffle=False, isLoop=True, isSort=True, 
                                                   max_char_per_word=FLAGS.max_char_per_word, max_sent_length=FLAGS.max_sent_length, 
                                                   with_dep=FLAGS.with_dep, with_image=FLAGS.with_image, image_feats=image_feats)
-    print('save cache file')
+    #print('save cache file')
     #word_vocab.parser.save_cache()
-    image_feats.save_feat()
+    #image_feats.save_feat()
     if not FLAGS.decoding_only:
         print('Number of instances in trainDataStream: {}'.format(trainDataStream.get_num_instance()))
         print('Number of instances in devDataStream: {}'.format(devDataStream.get_num_instance()))
