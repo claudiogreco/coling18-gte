@@ -1,0 +1,2 @@
+model_checkpoint_path: "SentenceMatch.snli_only_image_hypo.best.model"
+all_model_checkpoint_paths: "SentenceMatch.snli_only_image_hypo.best.model"
