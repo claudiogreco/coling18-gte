@@ -1,5 +1,14 @@
 # Grounded Textual Entailment
-Dataset and code associated to the paper [Grounded Textual Entailment](https://arxiv.org/pdf/1806.05645.pdf) [1].
+Dataset and code associated to the paper [Grounded Textual Entailment](https://arxiv.org/pdf/1806.05645.pdf) [1]. A BibTeX entry for the paper is the following:
+
+```
+@article{vu2018grounded,
+  title={Grounded Textual Entailment},
+  author={Vu, Hoa Trong and Greco, Claudio and Erofeeva, Aliia and Jafaritazehjan, Somayeh and Linders, Guido and Tanti, Marc and Testoni, Alberto and Bernardi, Raffaella and Gatt, Albert},
+  journal={Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
+  year={2018}
+}
+```
 
 ## Abstract
 Capturing semantic relations between sentences, such as entailment, is a long-standing challenge for computational semantics. 
