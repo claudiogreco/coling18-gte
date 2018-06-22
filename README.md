@@ -1,5 +1,5 @@
 # Grounded Textual Entailment
-Dataset and code associated to the paper [1].
+Dataset and code associated to the paper [Grounded Textual Entailment](https://arxiv.org/pdf/1806.05645.pdf) [1].
 
 ## Abstract
 Capturing semantic relations between sentences, such as entailment, is a long-standing challenge for computational semantics. 
@@ -9,7 +9,7 @@ Logic-based models analyse entailment in terms of possible worlds (interpretatio
 ### Prerequisites
 1. Tensorflow
 2. Flick30k + Keras and its [VGG16 pretrained models](https://github.com/fchollet/deep-learning-models) or download [feature file](bimpm/image_features/vgg_feats_77512_2.npy)
-3. [Glove embeddings]
+3. [Glove embeddings](http://nlp.stanford.edu/data/glove.840B.300d.zip)
 
 ### Training
 File .config contains all the settings and hyperparameters for training. In order to run:
