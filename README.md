@@ -22,7 +22,7 @@ File .config contains all the settings and hyperparameters for training. In orde
 ### Evaluation
 Trained models are saved in [models directory](bimpm/models). If you want to run decode only, change `decoding_only` to `true`.
 
-### Bibliography
+## Bibliography
 [1] Hoa Trong Vu, Claudio Greco, Aliia Erofeeva, Somayeh Jafaritazehjan, Guido Linders, Marc Tanti, Alberto Testoni, Raffaella Bernardi, Albert Gatt. 2018. Grounded Textual Entailment. In Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018).
 
 [2] Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP).
