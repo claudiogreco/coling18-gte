@@ -20,7 +20,7 @@ The dataset is available [here](https://drive.google.com/file/d/1v5HZtSFF0FH-5mr
 ## Running the BiMPM models
 ### Prerequisites
 1. Tensorflow
-2. Flick30k + Keras and its [VGG16 pretrained models](https://github.com/fchollet/deep-learning-models) or download [feature file](bimpm/image_features/vgg_feats_77512_2.npy)
+2. Flick30k + Keras and its [VGG16 pretrained models](https://github.com/fchollet/deep-learning-models) or download [feature files](https://drive.google.com/file/d/1_PteTR8vHF8kC9x1LYnW0b1q9A2ggAz3/view?usp=sharing)
 3. [Glove embeddings](http://nlp.stanford.edu/data/glove.840B.300d.zip)
 
 ### Training
