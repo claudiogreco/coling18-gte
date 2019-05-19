@@ -17,6 +17,9 @@ Logic-based models analyse entailment in terms of possible worlds (interpretatio
 ## Dataset
 The dataset is available [here](https://drive.google.com/file/d/1v5HZtSFF0FH-5mr5sHHjabI51lDJFZjt/view?usp=sharing).
 
+## Pre-trained models
+The pre-trained models are available [here](https://drive.google.com/drive/folders/1CoDmxA0XPN_ddKPs2KDSkfMbEcgGgkHI?usp=sharing)
+
 ## Running the BiMPM models
 ### Prerequisites
 1. Tensorflow
