@@ -15,10 +15,10 @@ Capturing semantic relations between sentences, such as entailment, is a long-st
 Logic-based models analyse entailment in terms of possible worlds (interpretations, or situations) where a premise P entails a hypothesis H iff in all worlds where P is true, H is also true. Statistical models view this relationship probabilistically, addressing it in terms of whether a human would likely infer H from P. In this paper, we wish to bridge these two perspectives, by arguing for a visually-grounded version of the Textual Entailment task. Specifically, we ask whether models can perform better if, in addition to P and H, there is also an image (corresponding to the relevant "world" or "situation"). We use a multimodal version of the SNLI dataset [2] and we compare "blind" and visually-augmented models of textual entailment. We show that visual information is beneficial, but we also conduct an in-depth error analysis that reveals that current multimodal models are not performing "grounding" in an optimal fashion.
 
 ## Dataset
-The dataset is available [here](https://drive.google.com/file/d/1v5HZtSFF0FH-5mr5sHHjabI51lDJFZjt/view?usp=sharing).
+The dataset is available [here](https://drive.google.com/file/d/15I553IyAua69V6F8jWGMT76OHMmXp0u8/view?usp=sharing).
 
 ## Pre-trained models
-The pre-trained models are available [here](https://drive.google.com/drive/folders/1CoDmxA0XPN_ddKPs2KDSkfMbEcgGgkHI?usp=sharing)
+The pre-trained models are available [here](https://drive.google.com/drive/folders/1CoDmxA0XPN_ddKPs2KDSkfMbEcgGgkHI?usp=sharing).
 
 ## Running the BiMPM models
 ### Prerequisites
